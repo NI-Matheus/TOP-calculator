@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="keywords" content="Calculator,HTML, CSS, JavaScript" />
-    <meta name="description" content="Calculator made for The Odin Project course" />
+    <meta
+      name="description"
+      content="Calculator made for The Odin Project course"
+    />
     <meta name="author" content="Matheus P. C. Silva" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
@@ -12,23 +15,33 @@
   <body>
     <div class="calculator">
       <input type="text" id="display" disabled />
-      <input type="button" value="7" class="btn" data-value="7" />
-      <input type="button" value="8" class="btn" data-value="8" />
-      <input type="button" value="9" class="btn" data-value="9" />
-      <input type="button" value="/" class="btn" data-value="/" />
-      <input type="button" value="4" class="btn" data-value="4" />
-      <input type="button" value="5" class="btn" data-value="5" />
-      <input type="button" value="6" class="btn" data-value="6" />
-      <input type="button" value="*" class="btn" data-value="*" />
-      <input type="button" value="1" class="btn" data-value="1" />
-      <input type="button" value="2" class="btn" data-value="2" />
-      <input type="button" value="3" class="btn" data-value="3" />
-      <input type="button" value="-" class="btn" data-value="-" />
-      <input type="button" value="0" class="btn" data-value="0" />
-      <input type="button" value="." class="btn" data-value="." />
-      <input type="button" value="=" class="btn-equal" />
-      <input type="button" value="+" class="btn" data-value="+" />
-      <input type="button" value="C" class="btn-clear" />
+      <div class="row">
+        <input type="button" value="7" class="btn" data-value="7" />
+        <input type="button" value="8" class="btn" data-value="8" />
+        <input type="button" value="9" class="btn" data-value="9" />
+        <input type="button" value="/" class="btn btn-operator" data-value="/" />
+      </div>
+      <div class="row">
+        <input type="button" value="4" class="btn" data-value="4" />
+        <input type="button" value="5" class="btn" data-value="5" />
+        <input type="button" value="6" class="btn" data-value="6" />
+        <input type="button" value="*" class="btn btn-operator" data-value="*" />
+      </div>
+      <div class="row">
+        <input type="button" value="1" class="btn" data-value="1" />
+        <input type="button" value="2" class="btn" data-value="2" />
+        <input type="button" value="3" class="btn" data-value="3" />
+        <input type="button" value="-" class="btn btn-operator" data-value="-" />
+      </div>
+      <div class="row">
+        <input type="button" value="0" class="btn btn-zero" data-value="0" />
+        <input type="button" value="." class="btn" data-value="." />
+        <input type="button" value="C" class="btn btn-clear" />
+        <input type="button" value="+" class="btn btn-operator" data-value="+" />
+      </div>
+      <div class="row">
+        <input type="button" value="=" class="btn btn-equal" />
+      </div>
     </div>
 
     <script src="script.js"></script>
