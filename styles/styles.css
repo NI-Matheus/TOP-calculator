@@ -1,0 +1,71 @@
+@import url("reset.css");
+
+html {
+  font-size: 16px;
+}
+
+.calculator {
+  width: 40%;
+  max-width: 400px;
+  min-width: 200px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+#display {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-align: right;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.row .btn {
+  flex-grow: 1;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  width: 20%;
+}
+
+.row .btn-equal {
+  background-color: #e9c46a;
+  color: #fff;
+}
+
+.row .btn-clear {
+  background-color: #f94144;
+  color: #fff;
+}
+
+.row .btn:hover {
+  background-color: #ccc; /* Set the background color on hover */
+}
+
+.row .btn-equal {
+  background-color: #e9c46a;
+  color: #fff;
+}
+
+.row .btn-clear {
+  background-color: #f94144;
+  color: #fff;
+}
