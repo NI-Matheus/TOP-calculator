@@ -56,16 +56,11 @@ html {
   color: #fff;
 }
 
+.row .btn-operator {
+  background-color: #46abca;
+  color: #fff;
+}
+
 .row .btn:hover {
   background-color: #ccc; /* Set the background color on hover */
-}
-
-.row .btn-equal {
-  background-color: #e9c46a;
-  color: #fff;
-}
-
-.row .btn-clear {
-  background-color: #f94144;
-  color: #fff;
 }
