@@ -52,12 +52,17 @@ html {
 }
 
 .row .btn-clear {
-  background-color: #f94144;
+  background-color: #d45052;
   color: #fff;
 }
 
 .row .btn-operator {
   background-color: #46abca;
+  color: #fff;
+}
+
+.row .btn-backspace {
+  background-color: #d45052;
   color: #fff;
 }
 

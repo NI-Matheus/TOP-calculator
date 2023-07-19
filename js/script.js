@@ -31,6 +31,13 @@ document.addEventListener("DOMContentLoaded", () => {
         clearStack(); // Call the clearStack function to clear the stack
     });
 
+    // Add event listener to the backspace button
+    const backspaceButton = document.querySelector(".btn-backspace");
+    backspaceButton.addEventListener("click", () => {
+        backspace();
+    });
+
+
     // Function to update the display when a button is clicked
     function updateDisplay(value) {
         console.log("Clicked value:", value);
@@ -154,5 +161,11 @@ document.addEventListener("DOMContentLoaded", () => {
     function clearStack() {
         // Clear the stack by setting its length to 0
         stack.length = 0;
+    }
+
+    // Function to handle the backspace button
+    function backspace() {
+        // Remove the last character from the display
+        display.value = display.value.slice(0, -1);
     }
 });
